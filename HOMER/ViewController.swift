@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import URWeatherView
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var weatherView: URWeatherView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.weatherView.initView(mainWeatherImage: #imageLiteral(resourceName: "buildings"), backgroundImage: #imageLiteral(resourceName: "bluesky.en"))
+        
+        self.showWeather()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //MARK: EVERYTHING WEATHER
+    func showWeather() {
+        let weather: URWeatherType = .cloudy
+        self.weatherView.startWeatherSceneBulk(weather, upperImage: #imageLiteral(resourceName: "img_5.png"), duration: 1000000, debugOption: true) {
+            print("rolo")
+        }
+        self.weatherView.startWeatherSceneBulk(weather, debugOption: true, additionalTask: {
+            // task what you want to do after showing the weather effect...
+            print("acafkad")
+        })
     }
-
-
+    
 }
 

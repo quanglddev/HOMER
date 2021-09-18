@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CF3348612D804759243470F /* Pods_HOMER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875655F6B55BD20365A7C0DC /* Pods_HOMER.framework */; };
 		4067BA191FD00E5200D4EDCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4067BA181FD00E5200D4EDCC /* AppDelegate.swift */; };
 		4067BA1B1FD00E5200D4EDCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4067BA1A1FD00E5200D4EDCC /* ViewController.swift */; };
 		4067BA1E1FD00E5200D4EDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA1C1FD00E5200D4EDCC /* Main.storyboard */; };
 		4067BA201FD00E5200D4EDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA1F1FD00E5200D4EDCC /* Assets.xcassets */; };
 		4067BA231FD00E5200D4EDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA211FD00E5200D4EDCC /* LaunchScreen.storyboard */; };
+		4067BA4B1FD012F900D4EDCC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA311FD012F900D4EDCC /* data.json */; };
+		4067BA4D1FD012F900D4EDCC /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA331FD012F900D4EDCC /* img_0.png */; };
+		4067BA4E1FD012F900D4EDCC /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA341FD012F900D4EDCC /* img_1.png */; };
+		4067BA4F1FD012F900D4EDCC /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA351FD012F900D4EDCC /* img_2.png */; };
+		4067BA501FD012F900D4EDCC /* img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA361FD012F900D4EDCC /* img_3.png */; };
+		4067BA511FD012F900D4EDCC /* img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA371FD012F900D4EDCC /* img_4.png */; };
+		4067BA521FD012F900D4EDCC /* img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4067BA381FD012F900D4EDCC /* img_5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F62B8678767ED88DE0C8EB4 /* Pods-HOMER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMER/Pods-HOMER.debug.xcconfig"; sourceTree = "<group>"; };
 		4067BA151FD00E5200D4EDCC /* HOMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4067BA181FD00E5200D4EDCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4067BA1A1FD00E5200D4EDCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		4067BA1F1FD00E5200D4EDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4067BA221FD00E5200D4EDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4067BA241FD00E5200D4EDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4067BA311FD012F900D4EDCC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4067BA331FD012F900D4EDCC /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		4067BA341FD012F900D4EDCC /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		4067BA351FD012F900D4EDCC /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		4067BA361FD012F900D4EDCC /* img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_3.png; sourceTree = "<group>"; };
+		4067BA371FD012F900D4EDCC /* img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_4.png; sourceTree = "<group>"; };
+		4067BA381FD012F900D4EDCC /* img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_5.png; sourceTree = "<group>"; };
+		6CF4CF0357971523A750376D /* Pods-HOMER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMER.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOMER/Pods-HOMER.release.xcconfig"; sourceTree = "<group>"; };
+		875655F6B55BD20365A7C0DC /* Pods_HOMER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF3348612D804759243470F /* Pods_HOMER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				4067BA171FD00E5200D4EDCC /* HOMER */,
 				4067BA161FD00E5200D4EDCC /* Products */,
+				B49D42A1B3C6A5216E139451 /* Pods */,
+				95D759BAA631CC1D127E1039 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +75,7 @@
 		4067BA171FD00E5200D4EDCC /* HOMER */ = {
 			isa = PBXGroup;
 			children = (
+				4067BA2A1FD012F900D4EDCC /* URExampleWeatherView */,
 				4067BA181FD00E5200D4EDCC /* AppDelegate.swift */,
 				4067BA1A1FD00E5200D4EDCC /* ViewController.swift */,
 				4067BA1C1FD00E5200D4EDCC /* Main.storyboard */,
@@ -64,6 +86,37 @@
 			path = HOMER;
 			sourceTree = "<group>";
 		};
+		4067BA2A1FD012F900D4EDCC /* URExampleWeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				4067BA311FD012F900D4EDCC /* data.json */,
+				4067BA331FD012F900D4EDCC /* img_0.png */,
+				4067BA341FD012F900D4EDCC /* img_1.png */,
+				4067BA351FD012F900D4EDCC /* img_2.png */,
+				4067BA361FD012F900D4EDCC /* img_3.png */,
+				4067BA371FD012F900D4EDCC /* img_4.png */,
+				4067BA381FD012F900D4EDCC /* img_5.png */,
+			);
+			path = URExampleWeatherView;
+			sourceTree = "<group>";
+		};
+		95D759BAA631CC1D127E1039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				875655F6B55BD20365A7C0DC /* Pods_HOMER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49D42A1B3C6A5216E139451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F62B8678767ED88DE0C8EB4 /* Pods-HOMER.debug.xcconfig */,
+				6CF4CF0357971523A750376D /* Pods-HOMER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4067BA271FD00E5200D4EDCC /* Build configuration list for PBXNativeTarget "HOMER" */;
 			buildPhases = (
+				10C6619EF674D95267763962 /* [CP] Check Pods Manifest.lock */,
 				4067BA111FD00E5200D4EDCC /* Sources */,
 				4067BA121FD00E5200D4EDCC /* Frameworks */,
 				4067BA131FD00E5200D4EDCC /* Resources */,
+				57CFB69818A031A8FDDD7E75 /* [CP] Embed Pods Frameworks */,
+				9562209A6709C0522D2E83C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +152,7 @@
 				TargetAttributes = {
 					4067BA141FD00E5200D4EDCC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z6SZFEQ64K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,13 +180,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4067BA4D1FD012F900D4EDCC /* img_0.png in Resources */,
 				4067BA231FD00E5200D4EDCC /* LaunchScreen.storyboard in Resources */,
+				4067BA4B1FD012F900D4EDCC /* data.json in Resources */,
 				4067BA201FD00E5200D4EDCC /* Assets.xcassets in Resources */,
+				4067BA4F1FD012F900D4EDCC /* img_2.png in Resources */,
+				4067BA511FD012F900D4EDCC /* img_4.png in Resources */,
 				4067BA1E1FD00E5200D4EDCC /* Main.storyboard in Resources */,
+				4067BA4E1FD012F900D4EDCC /* img_1.png in Resources */,
+				4067BA501FD012F900D4EDCC /* img_3.png in Resources */,
+				4067BA521FD012F900D4EDCC /* img_5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C6619EF674D95267763962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57CFB69818A031A8FDDD7E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOMER/Pods-HOMER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9562209A6709C0522D2E83C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOMER/Pods-HOMER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4067BA111FD00E5200D4EDCC /* Sources */ = {
@@ -258,9 +370,12 @@
 		};
 		4067BA281FD00E5200D4EDCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F62B8678767ED88DE0C8EB4 /* Pods-HOMER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = HOMER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.industries.HOMER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +385,12 @@
 		};
 		4067BA291FD00E5200D4EDCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF4CF0357971523A750376D /* Pods-HOMER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = HOMER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.industries.HOMER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +417,7 @@
 				4067BA291FD00E5200D4EDCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
